@@ -12,6 +12,8 @@ You can make a link below.
 [Blog Address](https://blog.naver.com/ring717)
 
 
+> 'Study of Algorithm'
+
 Also you can make a none ordered list below.
 
 * Git Tutorial
