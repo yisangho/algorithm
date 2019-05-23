@@ -35,3 +35,10 @@ May 20 2019 | design | database
 Bold
 
 **Study** Algorithm ~~Java~~ world!!
+
+
+* Make a zip file from branch 
+  * When you make a zip file with branch to the same directory
+    * git archive --format=zip master -o Master.zip
+  * You want to make a zip file from branch to other directory
+    * git archive --format=zip master -o ../Master.zip
