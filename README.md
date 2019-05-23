@@ -42,3 +42,24 @@ Bold
     * git archive --format=zip master -o Master.zip
   * You want to make a zip file from branch to other directory
     * git archive --format=zip master -o ../Master.zip
+
+
+* Git **rebase** Command
+  * This is command for edit or delete of specific commit
+  * when you want to edit for commit message with interactive mode 
+    * git rebase -i
+  * when you want to see the log recent three row
+    * git rebase -i HEAD~3
+  * when you want to see from specific spot base on hashcode
+    * git rebase -i e34c3cb2b98026c0d7e93a60e4648b94c117087f
+  * when you want to delete own specific history
+    * First, you open the list of log 
+             git rebase -i 
+      Next, input the rebase command for drop of log
+             current > pick 223jkj234 Drop Example1.txt
+             update >  drop 223jkj234 Drop Example1.txt
+                       This
+                       
+                       
+             
+             
