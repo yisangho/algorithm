@@ -36,6 +36,26 @@ Bold
 
 **Study** Algorithm ~~Java~~ world!!
 
+* Set a config
+  * set a user name
+    * git config --global user.name "test_name"
+  * set a user email
+    * git config --global user.email "test@test.com"
+  * print git config
+    * git config --list
+  * set a default editor
+    * git config --global core.editor vi
+
+
+* Add a file to git
+  * git add "filename"
+* commit a file to git
+  * git commit -m "add a file"
+* check a git log
+  * git log
+  
+
+
 
 * Make a zip file from branch 
   * When you make a zip file with branch to the same directory
@@ -59,7 +79,15 @@ Bold
              current > pick 223jkj234 Drop Example1.txt
              update >  drop 223jkj234 Drop Example1.txt
                        This
-                       
+
+* If you want to edit date a specific job
+  * First >  git rebase -i 
+  * Second > edit the command **pick** to **edit or e**
+  * Third  > set GIT_COMMITTER_DATE="12/12/12 10:00p +0000"
+  * FORTH  > git commit --amend --no-edit
+  * FIFTH  > git rebase --continue
+  
+
                        
              
              
